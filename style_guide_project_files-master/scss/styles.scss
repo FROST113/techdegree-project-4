@@ -7,6 +7,14 @@
 // NOTE: import utilities and base partials here:
 
 
+// import utilities partials
+@import 'utilities/index';
+
+
+// import base partials
+@import 'base/index';
+
+
 
 // import components partials
-@import 'components';
+@import 'components/index';

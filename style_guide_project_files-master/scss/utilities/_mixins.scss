@@ -1,0 +1,13 @@
+// Media queries
+@mixin mq($break) {
+    @if $break == "small" {
+        @media (min-width: $break-mobile) {
+            @content;
+        }
+    }
+    @else if $break == "large" {
+        @media (min-width: $break-desk) {
+            @content;
+        }
+    }
+}
