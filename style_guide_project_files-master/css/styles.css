@@ -562,13 +562,115 @@ p {
   }
 }
 
-.theme__colors {
-  border: 5px solid;
+.grid__col--12.theme__colors {
+  background-color: #48D1CC;
+  border-radius: 5px;
+  padding: 6px;
+  color: #343434;
 }
 
-.img--logo {
-  display: block;
-  margin: auto;
+@media (min-width: 1400px) {
+  .grid__col--12.theme__colors {
+    text-align: center;
+  }
+}
+
+.grid__col--6.theme__colors {
+  background-color: #6495ED;
+  border-radius: 5px;
+  padding: 6px;
+  color: #343434;
+}
+
+@media (min-width: 1400px) {
+  .grid__col--6.theme__colors {
+    text-align: center;
+  }
+}
+
+.grid__col--4.theme__colors {
+  background-color: #00FFFF;
+  border-radius: 5px;
+  padding: 6px;
+  color: #343434;
+}
+
+@media (min-width: 1400px) {
+  .grid__col--4.theme__colors {
+    text-align: center;
+  }
+}
+
+.grid__col--3.theme__colors {
+  background-color: #DDA0DD;
+  border-radius: 5px;
+  padding: 6px;
+  color: #343434;
+}
+
+@media (min-width: 1400px) {
+  .grid__col--3.theme__colors {
+    text-align: center;
+  }
+}
+
+.grid__col--5.theme__colors {
+  background-color: #66CDAA;
+  border-radius: 5px;
+  padding: 6px;
+  color: #343434;
+}
+
+@media (min-width: 1400px) {
+  .grid__col--5.theme__colors {
+    text-align: center;
+  }
+}
+
+.grid__col--7.theme__colors {
+  background-color: #DB7093;
+  border-radius: 5px;
+  padding: 6px;
+  color: #343434;
+}
+
+@media (min-width: 1400px) {
+  .grid__col--7.theme__colors {
+    text-align: center;
+  }
+}
+
+.grid__col--8.theme__colors {
+  background-color: #FFA07A;
+  border-radius: 5px;
+  padding: 6px;
+  color: #343434;
+}
+
+@media (min-width: 1400px) {
+  .grid__col--8.theme__colors {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1400px) {
+  .centered {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media (min-width: 480px) {
+  .img--logo {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media (min-width: 1400px) {
+  .img--logo {
+    margin-top: 30px;
+  }
 }
 
 .img--avatar {
@@ -604,6 +706,15 @@ p {
   background-color: #48D1CC;
 }
 
+@media (min-width: 1400px) {
+  .nav li {
+    display: inline;
+    float: left;
+    margin-top: 40px;
+    margin-left: 18px;
+  }
+}
+
 .container {
   width: 85%;
   margin: auto;
@@ -630,9 +741,23 @@ p {
   padding-left: 12px;
 }
 
+@media (min-width: 1400px) {
+  .container .blockquote {
+    font-size: 23px;
+  }
+}
+
 .container .headline--secondary {
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 1400px) {
+  .container {
+    width: 85%;
+    max-width: 1400px;
+    font-size: 19px;
+  }
 }
 
 .form .form__label--hidden {
@@ -649,11 +774,34 @@ p {
           box-sizing: border-box;
 }
 
+form .btn--default.theme__colors {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.75em 1.5em;
+  border-radius: 0.35em;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+
+form .btn--default.theme__colors:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+form .btn--default.theme__colors:active {
+  opacity: initial;
+}
+
 .btn--default, .btn--success, .btn--error, .btn--warning, .btn--info {
   margin-top: 15px;
   width: 100%;
   color: #fff;
-  display: inline-block;
+  display: block;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
@@ -678,10 +826,26 @@ p {
   font-size: 0.85em;
 }
 
+@media (min-width: 1400px) {
+  .btn--default {
+    float: left;
+    width: 18%;
+    margin-right: 2%;
+  }
+}
+
 .btn--success {
   font-size: 0.85em;
   background-color: #3CB371;
   border: 2px solid #3CB371;
+}
+
+@media (min-width: 1400px) {
+  .btn--success {
+    float: left;
+    width: 18%;
+    margin-right: 2%;
+  }
 }
 
 .btn--error {
@@ -690,15 +854,38 @@ p {
   border: 2px solid #DB7093;
 }
 
+@media (min-width: 1400px) {
+  .btn--error {
+    float: left;
+    width: 18%;
+    margin-right: 2%;
+  }
+}
+
 .btn--warning {
   font-size: 0.85em;
   background-color: #FF6347;
   border: 2px solid #FF6347;
 }
 
+@media (min-width: 1400px) {
+  .btn--warning {
+    float: left;
+    width: 18%;
+    margin-right: 2%;
+  }
+}
+
 .btn--info {
   font-size: 0.85em;
   background-color: #9370DB;
   border: 2px solid #9370DB;
+}
+
+@media (min-width: 1400px) {
+  .btn--info {
+    float: left;
+    width: 18%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
