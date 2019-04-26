@@ -3,9 +3,11 @@
 //===========================
 .container {
     width: 85%;
+    display: block;
     margin: auto;
     font-size: 16px;
-    max-width: 480px;
+    max-width: 768px;
+    
     .headline--primary {
         line-height: 1em;
         margin-left: 15px;

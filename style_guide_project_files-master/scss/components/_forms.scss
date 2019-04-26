@@ -2,6 +2,11 @@
 //Form styles
 //========================
 .form {
+    @include for-mobile-only {
+    max-width: 768px;
+    width: 100%;
+    display: block;
+    }
     .form__label--hidden {
         display: none;
     }

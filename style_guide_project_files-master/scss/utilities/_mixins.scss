@@ -1,6 +1,6 @@
 // Media queries
 @mixin for-mobile-only {
-    @media (min-width: $break-mobile) {
+    @media (max-width: $break-mobile) {
         @content;
     }
 }
