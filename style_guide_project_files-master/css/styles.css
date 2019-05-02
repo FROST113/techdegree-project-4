@@ -394,7 +394,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--1 {
     margin-top: 0;
     -ms-flex-preferred-size: 8.33333%;
@@ -408,7 +408,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--2 {
     margin-top: 0;
     -ms-flex-preferred-size: 16.66667%;
@@ -422,7 +422,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--3 {
     margin-top: 0;
     -ms-flex-preferred-size: 25%;
@@ -436,7 +436,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--4 {
     margin-top: 0;
     -ms-flex-preferred-size: 33.33333%;
@@ -450,7 +450,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--5 {
     margin-top: 0;
     -ms-flex-preferred-size: 41.66667%;
@@ -464,7 +464,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--6 {
     margin-top: 0;
     -ms-flex-preferred-size: 50%;
@@ -478,7 +478,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--7 {
     margin-top: 0;
     -ms-flex-preferred-size: 58.33333%;
@@ -492,7 +492,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--8 {
     margin-top: 0;
     -ms-flex-preferred-size: 66.66667%;
@@ -506,7 +506,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--9 {
     margin-top: 0;
     -ms-flex-preferred-size: 75%;
@@ -520,7 +520,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--10 {
     margin-top: 0;
     -ms-flex-preferred-size: 83.33333%;
@@ -534,7 +534,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--11 {
     margin-top: 0;
     -ms-flex-preferred-size: 91.66667%;
@@ -548,7 +548,7 @@ p {
       flex-basis: 100%;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__col--12 {
     margin-top: 0;
     -ms-flex-preferred-size: 100%;
@@ -556,7 +556,7 @@ p {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   [class^=grid__col] + [class^=grid__col] {
     margin-left: 10px;
   }
