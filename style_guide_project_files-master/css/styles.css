@@ -379,7 +379,7 @@ p {
           flex-direction: column;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .grid__row {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -660,11 +660,9 @@ p {
   }
 }
 
-@media (max-width: 768px) {
-  .img--logo {
-    display: block;
-    margin: auto;
-  }
+.img--logo {
+  display: block;
+  margin: auto;
 }
 
 @media (min-width: 769px) {

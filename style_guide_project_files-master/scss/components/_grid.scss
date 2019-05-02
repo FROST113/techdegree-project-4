@@ -17,7 +17,7 @@
     flex-direction: column;
 
     // NOTE: replace with media query mixin if aiming for exceeds
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
       flex-direction: row;
     }
   }

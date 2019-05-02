@@ -2,10 +2,8 @@
 // Image styles
 //================================
 .img--logo {
-    @include for-mobile-only {
     display: block;
     margin: auto;
-    }
     @include desktops {
         margin-top: 30px;
     }
